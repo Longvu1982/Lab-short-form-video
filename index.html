@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src ="./Assets/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <form>
+            <label for="Alg">Choose An Algorithm:</label>
+            <select name="Alg" id="Alg">
+              <option value="Next-one">Next-one</option>
+              <option value="Water-fall">Waterfall</option>
+            </select>
+            <br><br>
+          </form>
+          <form>
+            <label for="test-time">Choose test time:</label>
+            <select name="test-time" id="test-time">
+              <option value="1min" >1min</option>
+              <option value="3mins">3mins</option>
+            </select>
+            <br><br>
+          </form>
+          <form>
+            <label for="network">Choose network file:</label>
+            <select name="test-time" id="network">
+              <option value="trace_0" >trace_0</option>
+              <option value="trace_1" >trace_1</option>
+              <option value="trace_2" >trace_2</option>
+              <option value="trace_3">trace_3</option>
+            </select>
+            <br><br>
+          </form>
+        </header>
+        <section>
+            <ul>
+                <li class = "buffer">Buffered Time:</li>
+                <li class = "waste">Waste Time:</li>
+            </ul>
+        </section>
+        <footer><button>Calculate</button></footer>
+        <div class="side">LIVE CLIP</div>
+    </div>
+</body>
+</html>

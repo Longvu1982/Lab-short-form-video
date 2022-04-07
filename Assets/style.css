@@ -1,0 +1,59 @@
+html {
+    font-size: 6.25%;
+}
+body,html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: aqua;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #353535;
+}
+.container {
+    margin: 40px auto;
+    width: 400px;
+    background-color: white;
+    font-size: 18rem;
+    padding: 20rem;
+    border-radius: 10rem;
+    position: relative;
+}
+.side {
+    position: absolute;
+    top: 80rem;
+    right:-80rem;
+    transform: rotate(90deg);
+    font-size: 50rem;
+    font-weight: 600;
+    opacity: 0.6;
+}
+ul {
+    margin: 0 0 20rem 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+span {
+    color: rgb(42, 121, 121);
+}
+select {
+    outline: none;
+    border: 1px rgb(39, 88, 88) solid;
+    border-radius: 10rem;
+    padding: 5rem;
+}
+button {
+    border: none;
+    border-radius: 30rem;
+    background-color: rgb(125, 125, 253);
+    color: #fff;
+    padding:5rem 10rem;
+    margin-bottom: 10rem;
+}
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
